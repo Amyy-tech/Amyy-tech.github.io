@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<body> 
+
+	<form>
+  			<input type="text" name="search" placeholder="Search..">
+	</form>
+	
+
+	<div>
+		<ul>
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="e-Exam.html"> E-Exam </a></li>
+			<li><a href="e-Repository.html"> Repository </a></li>
+			<li><a href="Openforum.html"> Openforum </a></li>
+			<li><a href="mywall.html"> My Wall</a></li>
+		</ul>
+	</div>
+
+	<div class="register">
+		<h2>REGISTRATION FORM !!!</h2>
+		<form action="">
+		<div class="form">
+			<input type="text" id="first" name="firstname" required>
+			<label>FIRST NAME</label>
+		</div>
+  		<div class="form">
+			<input type="text" id="last" name="firstname" required>
+			<label>LAST NAME</label>
+		</div>
+		<div class="form">
+			<input type="text" id="id" name="idname" required="">
+			<label>ID</label>
+		</div>
+		<div class="form">
+			<input type="email" id="email" name="email" required="">
+		  	<label>EMAIL</label>
+		</div>
+		<div class="form">
+		  	<input type="password" name="" required="">
+		    <label>PASSWORD</label>
+		</div>
+		<div class="form">
+			<input type="textarea" id="addr" name="address" required="">
+			<label>COLLEGE ADDRESS</label>
+		</div>
+		<div class="form1">
+			<label for="gender">Select your gender: </label><br>
+  	  		<input type="radio" id="male" name="gender" value="male">
+	     	<label for="male">Male</label><br>
+	  		<input type="radio" id="female" name="gender" value="female">
+	  		<label for="female">Female</label><br>
+		</div>
+		<br>
+		<div class="form1">
+			<label for="division">Select your branch</label> &nbsp
+			<select name="division" id="division">
+				<option value="none" selected disabled hidden> Branch </option> 
+				<option value="computer">CSE</option>
+				<option value="electronics">ECE</option>
+				<option value="electrical">EEE</option>
+			</select>
+		</div>
+		<br>
+		<div class="form1">
+			<label for="division">Select your Technical Skills: </label><br>
+			<input type="checkbox" id="skill1" name="skill1" value="Tech-Skills">
+			<label for="skill1"> Python </label><br>
+			<input type="checkbox" id="vehicle2" name="skill2" value="Tech-Skills">
+			<label for="skill2"> C++ </label><br>
+			<input type="checkbox" id="vehicle3" name="skill3" value="Tech-Skills">
+			<label for="skill3"> Java </label>
+		</div>
+		<br>
+		<div class="form1">
+			<label for="myfile">Upload your resume:</label> <br><br>
+      		<input type="file" id="myfile" name="myfile"><br>
+		</div>
+		<br>
+		<center>
+			<a href="#">
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    Submit
+			</a> &nbsp &nbsp
+			<a href="#">
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    Reset
+			</a>
+		</center>
+		<br><br><br>
+		<p>Already have an account 🤔 
+			<button onclick="login.html"> LOGIN </button>
+		</p>
+		
+		</form>
+
+	</div>
+
+	
+
+</body>
+</html>
